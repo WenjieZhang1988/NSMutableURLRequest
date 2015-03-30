@@ -14,6 +14,7 @@
 		183247E91ACA17D800E216AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183247E81ACA17D800E216AE /* Images.xcassets */; };
 		183247EC1ACA17D800E216AE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183247EA1ACA17D800E216AE /* LaunchScreen.xib */; };
 		183247F81ACA17D900E216AE /* NSMutableURLRequestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183247F71ACA17D900E216AE /* NSMutableURLRequestTests.m */; };
+		183248031ACA180400E216AE /* NSMutableURLRequest+Multipart.m in Sources */ = {isa = PBXBuildFile; fileRef = 183248021ACA180400E216AE /* NSMutableURLRequest+Multipart.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		183247F11ACA17D900E216AE /* NSMutableURLRequestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSMutableURLRequestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		183247F61ACA17D900E216AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		183247F71ACA17D900E216AE /* NSMutableURLRequestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSMutableURLRequestTests.m; sourceTree = "<group>"; };
+		183248011ACA180400E216AE /* NSMutableURLRequest+Multipart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+Multipart.h"; sourceTree = "<group>"; };
+		183248021ACA180400E216AE /* NSMutableURLRequest+Multipart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+Multipart.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				183247E01ACA17D800E216AE /* AppDelegate.m */,
 				183247E21ACA17D800E216AE /* ViewController.h */,
 				183247E31ACA17D800E216AE /* ViewController.m */,
+				183248011ACA180400E216AE /* NSMutableURLRequest+Multipart.h */,
+				183248021ACA180400E216AE /* NSMutableURLRequest+Multipart.m */,
 				183247DB1ACA17D800E216AE /* Supporting Files */,
 			);
 			path = NSMutableURLRequest;
@@ -221,6 +226,7 @@
 			files = (
 				183247E41ACA17D800E216AE /* ViewController.m in Sources */,
 				183247E11ACA17D800E216AE /* AppDelegate.m in Sources */,
+				183248031ACA180400E216AE /* NSMutableURLRequest+Multipart.m in Sources */,
 				183247DE1ACA17D800E216AE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
